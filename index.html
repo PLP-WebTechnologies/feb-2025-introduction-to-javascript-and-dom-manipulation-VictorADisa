@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Page</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">VictorADisa</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <section class="box" id="intro-section">
+      <p id="dynamic-text">Hi, you're welcome here, click on the button to know what we do</p>
+      <button onclick="changeText()">What we do</button>
+      <button onclick="toggleHighlight()">Click to change logo colour</button>
+    </section>
+
+    <section class="box">
+      <button onclick="addElement()">Click to see our lovely message below</button>
+      <button onclick="removeElement()">Remove message</button>
+      <div id="extra-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VictorADisa</p>
+  </footer>
+
+  
+  <script src="/script.js"></script>
+</body>
+</html>

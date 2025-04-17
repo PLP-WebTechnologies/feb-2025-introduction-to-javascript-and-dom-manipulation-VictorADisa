@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #fdf6f0;
+    color: #3e3e3e;
+  }
+
+  .highlight {
+    color: crimson;
+    font-weight: bold;
+  }
+
+  .box {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+  }
